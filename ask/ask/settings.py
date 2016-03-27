@@ -59,9 +59,9 @@ WSGI_APPLICATION = 'ask.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'myproject',
-        'USER': 'enth'
-        'PASSWORD': 'password',
+        'NAME': 'ask_web',
+        'USER': 'enth',
+        'PASSWORD': '',
         'HOST': 'localhost',
         'PORT': '',
     }
